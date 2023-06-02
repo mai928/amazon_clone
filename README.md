@@ -16,3 +16,5 @@ You may also see any lint errors in the console.
 
 # Screenshot
 ![Capture9](https://github.com/mai928/amazon_clone/assets/58111868/58875d13-1b3f-4b06-b341-63f7b0c4bf06)
+# Live Demo
+Open [https://amazon-clone-fa9a89.netlify.app/](https://amazon-clone-fa9a89.netlify.app/) to view it in your browser.
