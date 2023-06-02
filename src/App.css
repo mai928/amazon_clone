@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -34,5 +34,44 @@
   }
   to {
     transform: rotate(360deg);
+  }
+} */
+
+
+@media (max-width:1360px){
+ .Yourprime{
+  display: none;
+ }
+ .return{
+  display: none;
+
+ }
+
+}
+
+@media (max-width: 750px){
+  .logo{
+    display: none;
+  }
+  .input{
+    margin-left: 20px;
+  }
+}
+
+@media(min-width: 899px) and (max-width: 1200px){
+  .products{
+    margin-top:100px ;
+  }
+}
+
+@media(min-width: 600px) and (max-width: 900px){
+  .products{
+    margin-top:150px ;
+  }
+}
+
+@media(min-width: 300px) and (max-width: 599px){
+  .products{
+    margin-top:100px ;
   }
 }

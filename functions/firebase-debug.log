@@ -1,0 +1,145 @@
+[debug] [2023-03-04T20:13:43.325Z] ----------------------------------------------------------------------
+[debug] [2023-03-04T20:13:43.328Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\HP\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start --only functions
+[debug] [2023-03-04T20:13:43.330Z] CLI Version:   11.24.0
+[debug] [2023-03-04T20:13:43.330Z] Platform:      win32
+[debug] [2023-03-04T20:13:43.330Z] Node Version:  v18.13.0
+[debug] [2023-03-04T20:13:43.333Z] Time:          Sat Mar 04 2023 22:13:43 GMT+0200 (Eastern European Standard Time)
+[debug] [2023-03-04T20:13:43.333Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-04T20:13:43.572Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-04T20:13:43.573Z] > authorizing via signed-in user (maimohammed928@gmail.com)
+[info] i  emulators: Starting emulators: functions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions"}}
+[debug] [2023-03-04T20:13:43.640Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-03-04T20:13:43.641Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2023-03-04T20:13:43.663Z] [hub] writing locator at C:\Users\HP\AppData\Local\Temp\hub-registration-app-1ae8e.json
+[debug] [2023-03-04T20:13:43.742Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-03-04T20:13:43.742Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-03-04T20:13:43.743Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, hosting, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, hosting, pubsub, storage\u001b[22m"}}
+[debug] [2023-03-04T20:13:43.764Z] defaultcredentials: writing to file C:\Users\HP\AppData\Roaming\firebase\maimohammed928_gmail_com_application_default_credentials.json
+[debug] [2023-03-04T20:13:43.770Z] Setting GAC to C:\Users\HP\AppData\Roaming\firebase\maimohammed928_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\HP\\AppData\\Roaming\\firebase\\maimohammed928_gmail_com_application_default_credentials.json"}}
+[debug] [2023-03-04T20:13:43.776Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/registration-app-1ae8e/adminSdkConfig [none]
+[debug] [2023-03-04T20:13:44.308Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/registration-app-1ae8e/adminSdkConfig 200
+[debug] [2023-03-04T20:13:44.308Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/registration-app-1ae8e/adminSdkConfig {"projectId":"registration-app-1ae8e","storageBucket":"registration-app-1ae8e.appspot.com"}
+[debug] [2023-03-04T20:13:44.484Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-03-04T20:13:44.485Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2023-03-04T20:13:44.485Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\HP\\.cache\\firebase\\emulators\\ui-v1.11.4\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\HP\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.4\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2023-03-04T20:13:44.758Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2023-03-04T20:13:44.758Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] i  functions: Watching "D:\projects\react.js\amazon\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"D:\\projects\\react.js\\amazon\\functions\" for Cloud Functions..."}}
+[debug] [2023-03-04T20:13:44.814Z] Validating nodejs source
+[debug] [2023-03-04T20:13:47.826Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.5.0",
+    "firebase-functions": "^4.2.0",
+    "stripe": "^11.13.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.0.0"
+  },
+  "private": true
+}
+[debug] [2023-03-04T20:13:47.827Z] Building nodejs source
+[debug] [2023-03-04T20:13:47.829Z] Failed to find version of module node: reached end of search path D:\projects\react.js\amazon\functions\node_modules
+[warn] !  functions: Your requested "node" version "16" doesn't match your global version "18". Using node@18 from host. 
+[info] i  functions: Loaded environment variables from .env. 
+[debug] [2023-03-04T20:13:47.847Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-03-04T20:13:47.875Z] Found firebase-functions binary at 'D:\projects\react.js\amazon\functions\node_modules\.bin\firebase-functions'
+[debug] [2023-03-04T20:13:48.362Z] Serving at port 8040
+
+[debug] [2023-03-04T20:13:48.994Z] Got response from /__/functions.yaml {"endpoints":{"api":{"platform":"gcfv1","availableMemoryMb":null,"timeoutSeconds":null,"minInstances":null,"maxInstances":null,"ingressSettings":null,"serviceAccountEmail":null,"vpc":null,"httpsTrigger":{},"entryPoint":"api"}},"specVersion":"v1alpha1","requiredAPIs":[]}
+[debug] [2023-03-04T20:13:49.004Z] shutdown requested via /__/quitquitquit
+
+[info] +  functions: Loaded functions definitions from source: api. {"metadata":{"emulator":{"name":"functions"},"message":"Loaded functions definitions from source: api."}}
+[info] +  functions[us-central1-api]: http function initialized (http://127.0.0.1:5001/registration-app-1ae8e/us-central1/api). {"metadata":{"emulator":{"name":"functions"},"message":"\u001b[1mhttp\u001b[22m function initialized (http://127.0.0.1:5001/registration-app-1ae8e/us-central1/api)."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌───────────┬────────────────┬─────────────────────────────────┐
+│ Emulator  │ Host:Port      │ View in Emulator UI             │
+├───────────┼────────────────┼─────────────────────────────────┤
+│ Functions │ 127.0.0.1:5001 │ http://127.0.0.1:4000/functions │
+└───────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[debug] [2023-03-04T20:15:22.839Z] [work-queue] {"queuedWork":["/registration-app-1ae8e/us-central1/api/payments/create-2023-03-04T20:15:22.839Z"],"queueLength":1,"runningWork":[],"workRunningCount":0}
+[debug] [2023-03-04T20:15:22.842Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/registration-app-1ae8e/us-central1/api/payments/create-2023-03-04T20:15:22.839Z"],"workRunningCount":1}
+[debug] [2023-03-04T20:15:22.845Z] Accepted request POST /registration-app-1ae8e/us-central1/api/payments/create?total=243900 --> us-central1-api
+[debug] [2023-03-04T20:15:22.873Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-03-04T20:15:22.877Z] [functions] Got req.url=/registration-app-1ae8e/us-central1/api/payments/create?total=243900, mapping to path=/payments/create?total=243900 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/registration-app-1ae8e/us-central1/api/payments/create?total=243900, mapping to path=/payments/create?total=243900"}}
+[info] i  functions: Loaded environment variables from .env. 
+[debug] [2023-03-04T20:15:23.031Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2023-03-04T20:15:23.034Z] [worker-pool] Adding worker with key us-central1-api, total=1 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=1"}}
+[debug] [2023-03-04T20:15:23.044Z] [work-queue] {"queuedWork":["/registration-app-1ae8e/us-central1/api/payments/create-2023-03-04T20:15:23.044Z"],"queueLength":1,"runningWork":["/registration-app-1ae8e/us-central1/api/payments/create-2023-03-04T20:15:22.839Z"],"workRunningCount":1}
+[debug] [2023-03-04T20:15:23.044Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/registration-app-1ae8e/us-central1/api/payments/create-2023-03-04T20:15:22.839Z","/registration-app-1ae8e/us-central1/api/payments/create-2023-03-04T20:15:23.044Z"],"workRunningCount":2}
+[debug] [2023-03-04T20:15:23.044Z] Accepted request POST /registration-app-1ae8e/us-central1/api/payments/create?total=243900 --> us-central1-api
+[debug] [2023-03-04T20:15:23.058Z] [functions] Runtime ready! Sending request! {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Runtime ready! Sending request!"}}
+[debug] [2023-03-04T20:15:23.059Z] [functions] Got req.url=/registration-app-1ae8e/us-central1/api/payments/create?total=243900, mapping to path=/payments/create?total=243900 {"metadata":{"emulator":{"name":"functions"},"message":"[functions] Got req.url=/registration-app-1ae8e/us-central1/api/payments/create?total=243900, mapping to path=/payments/create?total=243900"}}
+[info] i  functions: Loaded environment variables from .env. 
+[debug] [2023-03-04T20:15:23.191Z] [worker-pool] addWorker(us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] addWorker(us-central1-api)"}}
+[debug] [2023-03-04T20:15:23.192Z] [worker-pool] Adding worker with key us-central1-api, total=2 {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] Adding worker with key us-central1-api, total=2"}}
+[debug] [2023-03-04T20:15:26.127Z] [runtime-status] [12372] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.5.0","resolution":"D:\\projects\\react.js\\amazon\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [12372] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.5.0\",\"resolution\":\"D:\\\\projects\\\\react.js\\\\amazon\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2023-03-04T20:15:26.129Z] [runtime-status] [12372] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.2.1","resolution":"D:\\projects\\react.js\\amazon\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [12372] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.2.1\",\"resolution\":\"D:\\\\projects\\\\react.js\\\\amazon\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-03-04T20:15:26.130Z] [runtime-status] [12372] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [12372] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2023-03-04T20:15:26.132Z] [runtime-status] [12372] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.2.1","resolution":"D:\\projects\\react.js\\amazon\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [12372] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.2.1\",\"resolution\":\"D:\\\\projects\\\\react.js\\\\amazon\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-03-04T20:15:26.165Z] [runtime-status] [884] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.5.0","resolution":"D:\\projects\\react.js\\amazon\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [884] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.5.0\",\"resolution\":\"D:\\\\projects\\\\react.js\\\\amazon\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2023-03-04T20:15:26.168Z] [runtime-status] [884] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.2.1","resolution":"D:\\projects\\react.js\\amazon\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [884] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.2.1\",\"resolution\":\"D:\\\\projects\\\\react.js\\\\amazon\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-03-04T20:15:26.168Z] [runtime-status] [884] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}] {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [884] Outgoing network have been stubbed. [{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"http\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"https\",\"status\":\"mocked\"},{\"name\":\"net\",\"status\":\"mocked\"}]"}}
+[debug] [2023-03-04T20:15:26.170Z] [runtime-status] [884] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.2.1","resolution":"D:\\projects\\react.js\\amazon\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [884] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.2.1\",\"resolution\":\"D:\\\\projects\\\\react.js\\\\amazon\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-03-04T20:15:26.520Z] [runtime-status] [12372] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [12372] Checked functions.config() {\"config\":{}}"}}
+[debug] [2023-03-04T20:15:26.521Z] [runtime-status] [12372] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"4.2.1","resolution":"D:\\projects\\react.js\\amazon\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [12372] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"4.2.1\",\"resolution\":\"D:\\\\projects\\\\react.js\\\\amazon\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}}"}}
+[debug] [2023-03-04T20:15:26.522Z] [runtime-status] [12372] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.2.1","resolution":"D:\\projects\\react.js\\amazon\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [12372] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.2.1\",\"resolution\":\"D:\\\\projects\\\\react.js\\\\amazon\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-03-04T20:15:26.524Z] [runtime-status] [12372] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.5.0","resolution":"D:\\projects\\react.js\\amazon\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [12372] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.5.0\",\"resolution\":\"D:\\\\projects\\\\react.js\\\\amazon\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2023-03-04T20:15:26.528Z] [runtime-status] [12372] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.2.1","resolution":"D:\\projects\\react.js\\amazon\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [12372] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.2.1\",\"resolution\":\"D:\\\\projects\\\\react.js\\\\amazon\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-03-04T20:15:26.528Z] [runtime-status] [12372] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"11.5.0","resolution":"D:\\projects\\react.js\\amazon\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [12372] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"11.5.0\",\"resolution\":\"D:\\\\projects\\\\react.js\\\\amazon\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2023-03-04T20:15:26.554Z] [runtime-status] [884] Checked functions.config() {"config":{}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [884] Checked functions.config() {\"config\":{}}"}}
+[debug] [2023-03-04T20:15:26.554Z] [runtime-status] [884] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"4.2.1","resolution":"D:\\projects\\react.js\\amazon\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [884] firebase-functions has been stubbed. {\"functionsResolution\":{\"declared\":true,\"installed\":true,\"version\":\"4.2.1\",\"resolution\":\"D:\\\\projects\\\\react.js\\\\amazon\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}}"}}
+[debug] [2023-03-04T20:15:26.556Z] [runtime-status] [884] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.2.1","resolution":"D:\\projects\\react.js\\amazon\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [884] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.2.1\",\"resolution\":\"D:\\\\projects\\\\react.js\\\\amazon\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-03-04T20:15:26.558Z] [runtime-status] [884] Resolved module firebase-admin {"declared":true,"installed":true,"version":"11.5.0","resolution":"D:\\projects\\react.js\\amazon\\functions\\node_modules\\firebase-admin\\lib\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [884] Resolved module firebase-admin {\"declared\":true,\"installed\":true,\"version\":\"11.5.0\",\"resolution\":\"D:\\\\projects\\\\react.js\\\\amazon\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}"}}
+[debug] [2023-03-04T20:15:26.563Z] [runtime-status] [884] Resolved module firebase-functions {"declared":true,"installed":true,"version":"4.2.1","resolution":"D:\\projects\\react.js\\amazon\\functions\\node_modules\\firebase-functions\\lib\\v1\\index.js"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [884] Resolved module firebase-functions {\"declared\":true,\"installed\":true,\"version\":\"4.2.1\",\"resolution\":\"D:\\\\projects\\\\react.js\\\\amazon\\\\functions\\\\node_modules\\\\firebase-functions\\\\lib\\\\v1\\\\index.js\"}"}}
+[debug] [2023-03-04T20:15:26.564Z] [runtime-status] [884] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"11.5.0","resolution":"D:\\projects\\react.js\\amazon\\functions\\node_modules\\firebase-admin\\lib\\index.js"}} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [884] firebase-admin has been stubbed. {\"adminResolution\":{\"declared\":true,\"installed\":true,\"version\":\"11.5.0\",\"resolution\":\"D:\\\\projects\\\\react.js\\\\amazon\\\\functions\\\\node_modules\\\\firebase-admin\\\\lib\\\\index.js\"}}"}}
+[debug] [2023-03-04T20:15:26.862Z] [runtime-status] [12372] Functions runtime initialized. {"cwd":"D:\\projects\\react.js\\amazon\\functions","node_version":"18.13.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [12372] Functions runtime initialized. {\"cwd\":\"D:\\\\projects\\\\react.js\\\\amazon\\\\functions\",\"node_version\":\"18.13.0\"}"}}
+[debug] [2023-03-04T20:15:26.863Z] [runtime-status] [12372] Listening to port: \\?\pipe\fire_emu_dd22455a52e3ccaa {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [12372] Listening to port: \\\\?\\pipe\\fire_emu_dd22455a52e3ccaa"}}
+[debug] [2023-03-04T20:15:26.898Z] [runtime-status] [884] Functions runtime initialized. {"cwd":"D:\\projects\\react.js\\amazon\\functions","node_version":"18.13.0"} {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [884] Functions runtime initialized. {\"cwd\":\"D:\\\\projects\\\\react.js\\\\amazon\\\\functions\",\"node_version\":\"18.13.0\"}"}}
+[debug] [2023-03-04T20:15:26.898Z] [runtime-status] [884] Listening to port: \\?\pipe\fire_emu_68bdea7c2fa3cceb {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[runtime-status] [884] Listening to port: \\\\?\\pipe\\fire_emu_68bdea7c2fa3cceb"}}
+[debug] [2023-03-04T20:15:26.902Z] [worker-us-central1-api-29ac43f3-630f-4420-afd7-95443da66754]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-29ac43f3-630f-4420-afd7-95443da66754]: IDLE"}}
+[debug] [2023-03-04T20:15:26.902Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2023-03-04T20:15:26.904Z] [worker-us-central1-api-29ac43f3-630f-4420-afd7-95443da66754]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-29ac43f3-630f-4420-afd7-95443da66754]: BUSY"}}
+[debug] [2023-03-04T20:15:27.014Z] [worker-us-central1-api-2da25422-5732-43a2-a4f1-c60dd2e1f657]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-2da25422-5732-43a2-a4f1-c60dd2e1f657]: IDLE"}}
+[debug] [2023-03-04T20:15:27.014Z] [worker-pool] submitRequest(triggerId=us-central1-api) {"metadata":{"emulator":{"name":"functions"},"message":"[worker-pool] submitRequest(triggerId=us-central1-api)"}}
+[info] i  functions: Beginning execution of "us-central1-api" {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Beginning execution of \"us-central1-api\""}}
+[debug] [2023-03-04T20:15:27.015Z] [worker-us-central1-api-2da25422-5732-43a2-a4f1-c60dd2e1f657]: BUSY {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-2da25422-5732-43a2-a4f1-c60dd2e1f657]: BUSY"}}
+[info] i  functions: Finished "us-central1-api" in 1125.2212ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 1125.2212ms"}}
+[debug] [2023-03-04T20:15:28.030Z] [worker-us-central1-api-29ac43f3-630f-4420-afd7-95443da66754]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-29ac43f3-630f-4420-afd7-95443da66754]: IDLE"}}
+[debug] [2023-03-04T20:15:28.030Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":["/registration-app-1ae8e/us-central1/api/payments/create-2023-03-04T20:15:22.839Z"],"workRunningCount":1}
+[info] i  functions: Finished "us-central1-api" in 1017.1664ms {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"Finished \"us-central1-api\" in 1017.1664ms"}}
+[debug] [2023-03-04T20:15:28.033Z] [worker-us-central1-api-2da25422-5732-43a2-a4f1-c60dd2e1f657]: IDLE {"metadata":{"emulator":{"name":"functions"},"function":{"name":"us-central1-api"},"extension":{},"message":"[worker-us-central1-api-2da25422-5732-43a2-a4f1-c60dd2e1f657]: IDLE"}}
+[debug] [2023-03-04T20:15:28.034Z] [work-queue] {"queuedWork":[],"queueLength":0,"runningWork":[],"workRunningCount":0}
